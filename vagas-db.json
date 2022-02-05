@@ -1,0 +1,61 @@
+{
+ "vagas":[
+    {
+        "id":1,
+        "nome":"vendedor Audio e video",
+        "descricao":"vender produtos de áudio e vídeo",
+        "foto":"vaga1.jpg",
+        "salario":1300
+
+    },
+    {
+        "id":2,
+        "nome":"motoboy",
+        "descricao":"entregar comida com motocicleta",
+        "foto":"vaga2.jpg",
+        "salario":1400
+
+    },
+    {
+        "id":3,
+        "nome":"soldador",
+        "descricao":"soldar cabos elétricos",
+        "foto":"vaga3.jpg",
+        "salario":2000
+
+    },
+    {
+        "id":4,
+        "nome":"fiscal de loja",
+        "descricao":"fiscalizar produtos, clientes e funcionários de loja",
+        "foto":"vaga4.jpg",
+        "salario":2200
+
+    },
+    {
+        "id":5,
+        "nome":"cobrador",
+        "descricao":"cobrar aluguéis atrasados",
+        "foto":"vaga5.jpg",
+        "salario":1300
+
+    },
+    {
+        "id":6,
+        "nome":"professor de geografia",
+        "descricao":"ministrar aulas de geografia para o ensino médio",
+        "foto":"vaga6.jpg",
+        "salario":3900
+
+    },
+    {
+        "id":7,
+        "nome":"programador COBOL",
+        "descricao":"Manter sistema mainframe de grande banco nacional",
+        "foto":"vaga7.jpg",
+        "salario":12000
+
+    }
+ ]
+
+}

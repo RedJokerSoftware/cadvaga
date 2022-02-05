@@ -1,0 +1,10 @@
+.listarvagas{
+display:flex;
+flex-direction: row;
+
+}
+
+.listarvagas.card{
+    margin: 5px 5px
+    
+    }
