@@ -1,2 +1,26 @@
-sistema em construção!
-a inclusão de vagas ainda é manual.
+
+
+<div class="form_cadvaga">
+<h2>Cadastrar nova vaga</h2>
+<form>
+<div class="row">id:
+<input type="number" name="id" class="form" placeholder="digite o codigo da vaga" [(ngModel)]="vaga.id" required> </div>
+<div class="row">Nome da vaga:
+<input type="text" name="nome" class="form" placeholder="digite o nome do cargo" [(ngModel)]="vaga.nome" required></div><br>
+<div class="row">Salário:
+<input type="number" name="salario" class="form" placeholder="digite o salário" [(ngModel)]="vaga.salario" required></div>
+<div class="row">Foto ilustrativa:
+<input type="text" name="foto" class="form" placeholder="digite o nome do arquivo da foto" [(ngModel)]="vaga.foto" required></div><br>
+descrição:<br><textarea class="form" name="descricao" placeholder="digite uma breve descrição da vaga" [(ngModel)]="vaga.descricao" required></textarea><br>
+
+<br>
+<input type="button" value="cadastrar" (click)="cadastrar()"><br>
+<br><br>
+</form>
+
+</div>
+
+
+<div class="alerta">sistema em construção!<br>
+    a inclusão de vagas ainda é manual e o botão talvez não funcione.
+</div>

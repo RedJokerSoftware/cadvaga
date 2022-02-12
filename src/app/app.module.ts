@@ -12,6 +12,8 @@ import { FormlistaComponent } from './formlista/formlista.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { CandidatarComponent } from './candidatar/candidatar.component';
 
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,8 @@ import { CandidatarComponent } from './candidatar/candidatar.component';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

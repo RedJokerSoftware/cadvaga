@@ -16,7 +16,7 @@ public vagas: Vaga[]=[];
   }
 listarVagas(){
 this._vagasService.getVagas().subscribe(
-  retornaVaga =>{
+  retornaVaga =>{ 
     this.vagas=retornaVaga.map(
       item=>{return new Vaga(
         item.id,
